@@ -1,0 +1,108 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* padding: 20px; */
+  background-color: azure;
+  text-align: center;
+  height: 100vh;
+  width: 90vw;
+}
+.title {
+  color: rgb(18, 83, 10);
+  text-align: center;
+}
+
+.form {
+  width: 300px;
+  border: 2px rgb(18, 83, 10) solid;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.fbox {
+  margin-bottom: 10px;
+  border-bottom: 1px gray solid;
+  padding-bottom: 10px;
+}
+
+#fname,
+#email,
+textarea {
+  width: 100%;
+  height: 25px;
+  outline: none;
+  border: none;
+  background-color: rgb(200, 235, 200);
+  margin: 8px 0;
+}
+textarea {
+  height: 120px;
+}
+.gender {
+  display: block;
+}
+label {
+  margin-bottom: 10px;
+  color: rgb(18, 83, 10);
+}
+
+.btn {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(18, 83, 10);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(18, 83, 10);
+  border: solid 1px rgb(18, 83, 10);
+  border-radius: 5px;
+}
+#btn {
+  text-align: center;
+}
+.link {
+  width: 270px;
+  height: 40px;
+  margin: 10px auto;
+}
+.butt {
+  /* width: 170px; */
+  /* height: 80px; */
+  /* margin: 0 auto 10px; */
+  display: inline;
+}
+.butt a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  background-color: rgb(18, 83, 10);
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+.butt a:hover {
+  color: rgb(18, 83, 10);
+  font-weight: bold;
+  /* display: block; */
+  border: 1px solid rgb(18, 83, 10);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.visit {
+  /* margsin-bottom: 10px; */
+}
